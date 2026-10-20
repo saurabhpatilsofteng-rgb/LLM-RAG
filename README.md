@@ -64,5 +64,13 @@ ChatClient	Spring AI API for interacting with chat models
 call() vs stream()	Complete response vs progressive response
 
 
+Concept	Meaning
+ChatMemory	Manages conversation context
+MessageWindowChatMemory	Retains a limited number of messages
+MessageChatMemoryAdvisor	Adds conversation history to model requests
+conversationId	Identifies which conversation to continue
+In-memory storage	Memory is lost when the application restarts
+
+
 
 
